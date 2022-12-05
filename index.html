@@ -3,7 +3,7 @@
 <head>
 
   <title>Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields</title>
-  
+  <link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
@@ -63,17 +63,17 @@
           <h1 class="title is-1 publication-title">Ref-NPR: Reference-Based <br> Non-Photorealistic Radiance Fields</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://julianjuaner.github.io/">Yuechen Zhang</a><sup>1,2</sup>,</span>
+              <a href="https://julianjuaner.github.io/" target="_blank">Yuechen Zhang</a><sup>1,2</sup>,</span>
             <span class="author-block">
-              <a href="https://zxhezexin.com/">Zexin He</a><sup>1</sup>,</span>
+              <a href="https://zxhezexin.com/" target="_blank">Zexin He</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://doubiiu.github.io/">Jinbo Xing</a><sup>1</sup>,
+              <a href="https://doubiiu.github.io/" target="_blank">Jinbo Xing</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://appsrv.cse.cuhk.edu.hk/~xfyao/">Xufeng Yao</a><sup>1</sup>,
+              <a href="https://appsrv.cse.cuhk.edu.hk/~xfyao/" target="_blank">Xufeng Yao</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://jiaya.me/">Jiaya Jia</a><sup>1,2</sup>
+              <a href="https://jiaya.me/" target="_blank">Jiaya Jia</a><sup>1,2</sup>
             </span>
           </div>
 
@@ -87,7 +87,7 @@
               <!-- PDF Link. -->
               <span class="link-block">
                 <a href="assets/paper_ref-npr.pdf"
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
@@ -106,7 +106,7 @@
               <!-- Video Link. -->
               <span class="link-block">
                 <a href="https://youtu.be/KqJ2PjGD_9M"
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
@@ -149,8 +149,8 @@
                 type="video/mp4">
       </video> -->
       <img src="./assets/teaser.png" width="100%"/>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Ref-NPR</span> propagates 2D style reference to 3D radiance fields
+      <h2 class="subtitle">
+        Ref-NPR propagates 2D style reference to 3D radiance fields
         with Reference-Ray Registeration and Templated-Based Semantic Correspondence, thus obtaining better visual quality and visual correspondence.
       </h2>
     </div>
@@ -249,11 +249,11 @@
         <div class="content has-text-justified">
           <p>
             Existing 3D scene stylization methods employ an arbitrary style reference to transfer textures and colors as styles without establishing meaningful semantic correspondences.
-            We present Reference-Based Non-Photorealistic Radiance Fields, i.e., <span class="dnerf">Ref-NPR</span>.
+            We present Reference-Based Non-Photorealistic Radiance Fields, i.e., Ref-NPR.
             It is a controllable scene stylization method utilizing radiance fields to stylize a 3D scene, with a single stylized 2D view taken as reference.
             To achieve decent results, we propose a ray registration process based on the stylized reference view to obtain pseudo-ray supervision in novel views, and exploit the semantic correspondence in content images to fill occluded regions with perceptually similar styles.
-            Combining these operations, <span class="dnerf">Ref-NPR</span> generates non-photorealistic and continuous novel view sequences with a single reference while obtaining reasonable stylization in occluded regions.
-            Experiments show that <span class="dnerf">Ref-NPR</span> significantly outperforms other scene and video stylization methods in terms of both visual quality and semantic correspondence.
+            Combining these operations, Ref-NPR generates non-photorealistic and continuous novel view sequences with a single reference while obtaining reasonable stylization in occluded regions.
+            Experiments show that Ref-NPR significantly outperforms other scene and video stylization methods in terms of both visual quality and semantic correspondence.
           </p>
         </div>
       </div>
