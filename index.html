@@ -87,7 +87,7 @@
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="assets/paper_ref-npr.pdf" class="external-link button is-normal is-rounded is-dark"
+                  <a href="./assets/2212.02766.pdf" class="button is-normal is-rounded is-dark"
                     target="_blank">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -95,6 +95,7 @@
                     <span>Paper</span>
                   </a>
                 </span>
+                <!-- Arxiv Link. -->
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/2212.02766" class="external-link button is-normal is-rounded is-dark"
                     target="_blank">
@@ -143,7 +144,7 @@
 
   <section class="hero teaser">
     <div class="container is-max-desktop">
-      <div class="hero-body">
+      <div class="hero-body has-text-justified">
         <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./assets/cvpr.mp4"
                 type="video/mp4">
@@ -282,7 +283,7 @@
       <!-- Comparisons. -->
       <div class="columns is-centered">
         <div class="column is-full-width">
-          <div class="content">
+          <div class="content has-text-justified">
             <h2 class="title is-3">Comparisons</h2>
             <p>
               We compare <i>Ref-NPR</i> with two recent scene stylization methods, ARF and SNeRF, and also include a
@@ -343,7 +344,7 @@
             <!-- Adaptation to 2D Stylization. -->
             <div class="columns is-centered" , style="margin-bottom: 5%;">
               <div class="column is-full-width">
-                <div class="content">
+                <div class="content has-text-justified">
                   <h3 class="title is-4">Adaptation to 2D Stylization</h3>
                   <p>
                     Although <i>Ref-NPR</i> itself requires a stylized reference view, it can be extended to use
@@ -398,7 +399,7 @@
             <div class="columns is-centered" style="margin-bottom: 5%;">
 
               <!-- Appearance Editing. -->
-              <div class="column" style="margin-right: 0%;">
+              <div class="column has-text-justified" style="margin-right: 0%;">
                 <h3 class="title is-4">Appearance Editing</h3>
                 <p>
                   Added ketchup in the reference image is demonstrated properly in the stylized scene.
@@ -426,7 +427,7 @@
               <!--/ Appearance Editing. -->
 
               <!-- Controllability. -->
-              <div class="column" style="margin-left: 5%;">
+              <div class="column has-text-justified" style="margin-left: 5%;">
                 <h3 class="title is-4">Controllability</h3>
                 <p>
                   This extension allows great flexibility and controllability regarding to the provided 2D reference.
@@ -458,7 +459,7 @@
             <!-- Multi-Reference. -->
             <div class="columns is-centered">
               <div class="column is-full-width">
-                <div class="content">
+                <div class="content has-text-justified">
                   <h3 class="title is-4">Multi-Reference</h3>
                   <p>
                     <i>Ref-NPR</i> can be easily accommodated to multi-reference scenarios, by registering
@@ -476,13 +477,13 @@
                           <source src="./assets/playground.mp4" type="video/mp4">
                         </video>
                       </div>
-                      <p>Scene with Single Reference</p>
+                      <p>Scene with a single reference</p>
                       <div height="50%">
                         <video poster="" id="playground-multiple" autoplay controls muted loop playsinline>
                           <source src="./assets/3_ref_test_renders_path.mp4" type="video/mp4">
                         </video>
                       </div>
-                      <p>Scene with Multiple Reference</p>
+                      <p>Scene with multiple references</p>
                     </div>
                   </div>
                 </div>
@@ -494,33 +495,6 @@
         </div>
       </div>
       <!--/ Extensions. -->
-
-      <!-- Concurrent Work. -->
-      <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-      <!--/ Concurrent Work. -->
 
     </div>
   </section>
@@ -542,11 +516,20 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <a class="icon-link" href="">
+        <a class="icon-link" href="./assets/2212.02766.pdf" disabled>
           <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link external-link" href="https://arxiv.org/abs/2212.02766" disabled>
+          <i class="ai ai-arxiv"></i>
+        </a>
+        <a class="icon-link external-link" href="https://youtu.be/jnsnrTwVSBw" disabled>
+          <i class="fab fa-youtube"></i>
         </a>
         <a class="icon-link external-link" href="" disabled>
           <i class="fab fa-github"></i>
+        </a>
+        <a class="icon-link external-link" href="" disabled>
+          <i class="far fa-images"></i>
         </a>
       </div>
       <div class="columns is-centered">
